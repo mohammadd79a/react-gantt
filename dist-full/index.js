@@ -8557,7 +8557,7 @@ function Ad(t, e) {
 }
 function Od({ highlightTime: t }) {
   const e = pe(ct), n = re(e, "_scales"), r = T(() => {
-    if (console.log("useMemo executed", n), !n) return [];
+    if (!n) return [];
     const o = [...n.rows], i = {};
     o.forEach((l, c) => {
       const u = l.cells?.[0]?.unit;

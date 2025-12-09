@@ -103,8 +103,7 @@ function TimeScale({ highlightTime }) {
   const scales = useStore(api, "_scales");
 
   const correctedRows = useMemo(() => {
-    console.log("useMemo executed", scales);
-    
+
     if (!scales) return [];
   
     const rows = [...scales.rows];
