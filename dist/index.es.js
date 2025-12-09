@@ -1433,7 +1433,7 @@ function _n(n, r) {
 }
 function Sn({ highlightTime: n }) {
   const r = kt(Ct), e = tt(r, "_scales"), t = z(() => {
-    if (!e) return [];
+    if (console.log("useMemo executed", e), !e) return [];
     const h = [...e.rows], a = {};
     h.forEach((c, b) => {
       const $ = c.cells?.[0]?.unit;
