@@ -9,9 +9,9 @@ lerna-debug.log*
 yarn.lock
 
 node_modules
-dist
+# dist
 dist-demos
-dist-full
+# dist-full
 dist-ssr
 *.local
 
